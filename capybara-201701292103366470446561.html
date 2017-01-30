@@ -1,0 +1,41 @@
+<h1>All Horses</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Breed</th>
+    <th>Total Winnings</th>
+    <th>Jockey</th>
+    <th>Additional Info</th>
+    <th>Delete</th>
+  </tr>
+  
+    <tr>
+      <td>Phil</td>
+      
+      <td>3</td>
+      
+      <td><a href="/horses/1">Additional Info</a></td>
+      <td>
+        <form action="/horses/1" method="post">
+          <input type="hidden" name="_method" value="DELETE" />
+          <input type="submit" value="Delete" />
+        </form>
+      </td>
+    </tr>
+  
+    <tr>
+      <td>Penelope</td>
+      
+      <td>4</td>
+      
+      <td><a href="/horses/2">Additional Info</a></td>
+      <td>
+        <form action="/horses/2" method="post">
+          <input type="hidden" name="_method" value="DELETE" />
+          <input type="submit" value="Delete" />
+        </form>
+      </td>
+    </tr>
+  
+</table>
